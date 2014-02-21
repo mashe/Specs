@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.platform      = :ios, '7.0'
   s.source        = { :git => "https://github.com/shuffler/iosplayer.git", :tag => "0.0.1" }
   s.source_files  = 'ShufflerPlayer', 'ShufflerPlayer/*.{h,m}'
-  s.dependency    = 'HysteriaPlayer'
+  s.dependency    = 'HysteriaPlayer', 'Block-KVO'
 end
